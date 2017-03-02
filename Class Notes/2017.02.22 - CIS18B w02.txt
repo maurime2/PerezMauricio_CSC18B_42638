@@ -1,0 +1,76 @@
+00:00:00	Primitive Data Types:
+				int					
+				short
+				long
+				float
+				double
+				char
+				
+
+			string is an object, not a primative datatype
+
+			Classes / Objects
+				String
+				Integer
+				Double
+				Big Integer
+				
+			**************************************
+			will go into infinite loop if n = neg
+			**************************************	
+				int fact(int n)
+				{
+				if (n==0)||n==1) return 1;
+				return n*fact(n-1);
+				}
+				
+				
+						*****************
+				8 bytes	*Return Address	*
+						*****************
+				4 bytes	*return value	*
+						*****************
+				4 bytes	*parameters		*
+						*****************
+						
+			**************************************
+			Fix n<0
+			**************************************	
+				int fact(int n)
+				{
+				if (n<0) return -1;
+				if (n==0)||n==1) return 1;
+				return n*fact(n-1);
+				}
+	
+00:21:30	OVERFLOW
+
+			**************************************
+			Limited to n=174
+			**************************************	
+				int fact(int n)
+				{
+				if (n<0) return -1.0;
+				if (n==0)||n==1) return 1.0;
+				return n*fact(n-1);
+				}
+			
+00:28:00	
+				
+				**************************************
+				Grading
+				**************************************
+				1.	Documentation
+				2.	Compile?
+				3.	Meets Specs
+				4.	OnTime?
+				
+00:52:35	**************************************
+			Coding
+			**************************************
+			
+01:02:30	Member Function	(Review)
+			wraped is ctrl+r
+			
+			
+01:18:00	modulous

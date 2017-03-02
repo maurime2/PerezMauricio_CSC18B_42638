@@ -1,0 +1,32 @@
+00:00:00	Program Documentation / SUDO/ Flow Charts
+00:14:40	Assignment Due Dates
+
+00:18:45	IDE's CH 12
+			Background in Visual Studio
+			
+			Event Driven Programing:
+			Actions caused by input
+			Keyboard/Mouse/Touchscreen etc...
+			
+			When an event occurs we use an event 
+			listener to handle the event
+			
+00:31:16	XML in Java Development programing for android
+
+00:34:50	Turn Java program into Project Form
+				Right click Package (for GUI Application)
+			JFrame
+00:39:36		Swing:
+						Containers: obj that we can put other objects into.
+						
+01:00:50	Heavy Weight and Light Weight AWT
+			Swing and AWT
+01:02:30			AWT faster in preformance.
+03:25:00	Creating Hello WOrld
+				lable properties list once clicked
+01:04:50		Gui Development that makes him crazy. Default Names
+					Click CODE tab under Jlable Properties and change 
+						Variable Name
+						
+01:09:05	Do not change auto generated code!!!!!
+
