@@ -1,0 +1,5 @@
+
+
+00:50:30	Textfield Justification:	
+					horizontalAlignment 
+						(Trailing right left leading center)
