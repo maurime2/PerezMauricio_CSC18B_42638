@@ -1,0 +1,11 @@
+This is my proposal for 5 Added functions for my calculator program:
+
+1. Add trig functions (Sin,Cos,Tan)
+2. Add an exponentional function. (x^y)
+3. Add constant buttons (pi and e)
+4. Add a button that switches from Radians to Degrees
+5. Add a Root button
+
+Thank You:
+
+Mauricio S. Perez
