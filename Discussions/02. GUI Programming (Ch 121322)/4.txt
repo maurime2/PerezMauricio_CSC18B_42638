@@ -1,0 +1,10 @@
+In your own words, explain what event driven programming is 
+and why is it important for us when doing GUI programming in Java.
+
+When interacting with a screen, we expect a result to the imput we just gave. I.E a button press, a click on the gui, or inputing text or special characters on a keyboard.
+Event Driven Programing is a way in which the program can flow from logic to logic.
+An example of this is a form, in which you are imputing information, and the choices are revieled based on your initial choice.
+	I.E - Drop down menu: 
+			Select a Country ...
+				Select a State...
+					Select a City...

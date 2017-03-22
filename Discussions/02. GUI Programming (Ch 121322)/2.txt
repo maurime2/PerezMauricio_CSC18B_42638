@@ -1,0 +1,5 @@
+Select one of the several Swing containers and describe what it does in your own words.
+
+See: 02. Swing Containers.png
+Panel: of class javax.swing.JPanel
+It is the canvas on which all other swing components will be displayed on.

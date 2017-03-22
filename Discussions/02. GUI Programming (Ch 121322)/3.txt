@@ -1,0 +1,6 @@
+Select one of the several Swing controls and describe what it does in your own words.
+
+See: 03. Swing Controls.png
+
+Password Field: of javax.swing.JPasswordField class
+It takes in a line of text that will be handeled as a password. Hides the user inputs in the gui.

@@ -1,0 +1,10 @@
+In your own words, describe the difference between 
+	
+	light weight controls 
+			and 
+	heavy weight controls 
+
+in Java.
+
+See: 01. LW vs HW.png
+Light weight controls depend on Java only packages to display and execute vs Heavy weight controls depend on the operating systems own windowing resources to display and execute.
