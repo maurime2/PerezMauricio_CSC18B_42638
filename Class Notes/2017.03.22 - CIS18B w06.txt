@@ -1,0 +1,62 @@
+00:00:00		Strings Today
+
+00:16:20		Print f and format specifire 
+					%s - Format for string
+					%d - Decimal
+					%f - Float
+					%x - Hex
+
+				%c	character
+				%d	decimal (integer) number (base 10)
+				%e	exponential floating-point number
+				%f	floating-point number
+				%i	integer (base 10)
+				%o	octal number (base 8)
+				%s	a string of characters
+				%u	unsigned decimal (integer) number
+				%x	number in hexadecimal (base 16)
+				%%	print a percent sign
+				\%	print a percent sign
+
+00:22:30	Format specifires explained
+
+00:26:40	Copy Constructors
+
+00:31:20	Length - length of string
+00:31:30	charAt(n) - get char at index 'n'
+				char[] charArray = {'b', 'i', 'r', 't', 'h', ' ', 'd', 'a', 'y'};
+				s.charAt(0) should give you 'b'
+
+00:32:50	getChars - 
+				
+			if you can do something recursevely, you can do something non recursive...
+							
+00:37:50	Ackermann's Function				
+				
+				
+00:45:00	s1.getChars(source_index, Source_end, char_array, destination_index)
+
+00:52:45	equals ignore case
+			for comparing strings that are not case sensitive
+
+			s1="Hello"
+			s1.equald("hello") //<--FALSE
+			s1.equalsIgnoreCase("hello") //<--TRUE
+
+00:56:40	Compare two employees
+			
+00:57:30	Compare to:
+			x.CompareTo(y) returns int //
+				three possible outcomes:
+					x<y
+						x==y
+							x>y
+					
+01:02:20	cmp		
+			
+01:05:05	"hello" < "heLLo"
+
+01:12:00	Differences
+			
+			
+Next: Regular Expressions
