@@ -1,0 +1,88 @@
+00:06:10	Changes to the syllabus - Quiz #4 - Bumped up
+			
+			REGULAR EXPRESSIONS
+00:13:00	What is a regular Expression
+			http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
+			
+				Examples
+					"Hello, this is text"
+					
+00:18:00			"This\s+is\s+text"
+
+			Regex					Matches
+			this is text			Matches exactly "this is text"
+			this\s+is\s+text		Matches the word "this" followed by one or more whitespace characters
+									followed by the word "is" followed by one or more whitespace characters
+									followed by the word "text".
+			^\d+(\.\d+)?			^ defines that the patter must start at beginning of a new line. 
+									\d+ matches one or several digits. 
+									The ? makes the statement in brackets optional. 
+									\. matches ".", parentheses are used for grouping. 
+									Matches for example "5", "1.5" and "2.21".
+
+		Common Matching Symbols
+		.			Matches any character
+		^regex		Finds regex that must match at the beginning of the line.
+		regex$		Finds regex that must match at the end of the line.
+		[abc]		Set definition, can match the letter a or b or c.
+		[abc][vz]	Set definition, can match a or b or c followed by either v or z.
+		[^abc]		When a caret appears as the first character inside square brackets, it negates the pattern. This pattern matches any character except a or b or c.
+		[a-d1-7]	Ranges: matches a letter between a and d and figures from 1 to 7, but not d1.
+		X|Z			Finds X or Z.
+		XZ			Finds X directly followed by Z.
+		$			Checks if a line end follows.
+
+00:23:00	-	Class Examples
+				^regex$
+				[^vz]	//Anything but v or z	<--- dont match
+				[abc]	
+				[abc][vz]
+				av
+				bv
+				cv
+				
+				
+00:25:32	META CHARACTERS
+			Regular Expression	Description
+			\d			Any digit, short for [0-9]
+			\D			A non-digit, short for [^0-9]
+			\s			A whitespace character, short for [ \t\n\x0b\r\f]
+			\S			A non-whitespace character, short for
+			\w			A word character, short for [a-zA-Z_0-9]
+			\W			A non-word character [^\w]
+			\S+			Several non-whitespace characters
+			\b			Matches a word boundary where a word character is [a-zA-Z0-9_]
+
+
+			\d		--->	Any Didgit [0-9]
+			\D		--->	not any Digit [^0-9]		
+			\s		--->	ws	[\t\n\x0b]			//11 in decimal
+			
+			
+			
+00:32:00	Quantifier
+
+			Regular Expression	Description											Examples
+			*					Occurs zero or more times, is short for {0,}		X* finds no or several letter X, <sbr /> .* finds any character sequence
+			+					Occurs one or more times, is short for {1,}			X+- Finds one or several letter X
+			?					Occurs no or one times, ? is short for {0,1}.		X? finds no or exactly one letter X
+			{X}					Occurs X number of times, {} describes the order	\d{3} searches for three digits, .{10} for any character sequence of length 10.
+								of the preceding liberal
+			{X,Y}				Occurs between X and Y times,						\d{1,4} means \d must occur at least once and at a maximum of four.
+			*?					? after a quantifier makes it a reluctant 
+								quantifier. It tries to find the smallest 
+								match. This makes the regular expression 
+								stop at the first match.
+								
+			Ocpsoft - How to Reg Ex - Part 1
+00:47:30	http://www.ocpsoft.org/opensource/guide-to-regular-expressions-in-java-part-1/
+
+00:53:10	Modification Substitiution
+
+00:59:00	Public Static Constant Final
+
+01:02:00	Replace regex
+01:07:00	BREAK POINTS IN NETBEANS
+
+1:17:00		Groups
+			(\d{3,6})(\d{2,3})(\&)
