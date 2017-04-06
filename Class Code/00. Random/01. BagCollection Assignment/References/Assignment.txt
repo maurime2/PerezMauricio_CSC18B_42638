@@ -1,0 +1,11 @@
+Download the following Netbeans Project with the Bag/Collection project. Implement the sort function to sort from smallest to largest values with either Quick Sort, or Merge Sort. (If you want to be daring and bold, I will offer 2 points extra credit if you implement the sort function with Heap Sort).
+
+This assignment is due before 11:59PM on 3/24/2017. The Early Bird Bonus will apply for submission submitted before 11:59PM on 3/19/2017.
+
+Hint: when working with generic template classes (we will do this all through the course), you will need to use: import java.util.Comparator;
+and also use in any functions/methods that compare two items of the generic type with: <T extends Comparable<T>>
+This will allow you to use the compareTo method which is used to compare two objects.
+
+Example of using compareTo for strings: java-string-compareto-method-example
+Sometimes, when we write our own classes that may not have a concrete way of comparing two objects of the class, we have to implement our own compareTo method
+Even though this last link 

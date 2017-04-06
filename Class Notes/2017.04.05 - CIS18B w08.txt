@@ -1,0 +1,8 @@
+00:26:00		Compile Java from Command Line
+							Command:	In Console:
+				To compile:	javac		myFile.javac
+				to run:		java 		myFile
+
+				Path Environment Variable:
+				Set up java compiler 
+00:29:20	C:\Program Files\Java\jdk1.8.0_91\bin
