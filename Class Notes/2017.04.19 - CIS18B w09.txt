@@ -1,0 +1,18 @@
+00:00:00	Text Files
+			Writing to text file
+					PrintWriter
+			Reading file
+					Scanner
+					
+			Scanner(System.in)		//Used to read inputs
+			
+00:01:32	If we want to read to text file:
+				PrintWriter: Equivilant to OF stream in C++
+				Scanner:	Like IF Stream
+							If you have something like kb:
+									kb = Scanner(System.in);
+									int x=kb.nextInt();
+00:04:30	Example:
+			MISSED STUFF: Jannet Lehr Phonecall //Email in a month, CIS 21 and 20
+00:27:26	Example 3
+
